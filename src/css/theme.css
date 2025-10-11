@@ -1,10 +1,12 @@
 :root {
-  --color-primary: #F9F9F9;     
-  --color-accent: #EC7F20;     
-  --color-background: #F9F9F9; 
-  --color-background-dark: #0E0E0E;   
-  --color-text: #4A6B3A;         
-  --color-muted: #384437;        
+  --color-primary: #FEFAE0;/* light neutral background / navbar */     
+  --color-accent: #EC7F20;     /* logo orange / buttons */
+  --color-background: #FEFAE0; 
+  --color-background-dark: #283618;   /* dark green background for sections */
+  --color-text: #283618;          /* medium green for text */
+  --color-muted: #384437; /* dark green for muted text / details */
+  --color-secondary: #DDA15E;   /* orange-brown for highlights */
+  --color-tertiary: #BC6C25;       /* darker brown for details / hover */
 }
 
 .light {
@@ -17,9 +19,12 @@
 }
 
 .dark {
-  --color-primary: #8FBC8F;
-  --color-accent: #FFB84D;
-  --color-background: #121212;
-  --color-text: #E0E0E0;
-  --color-muted: #2C2C2C;
+  --color-primary: #283618;      /* dark green background / navbar */
+  --color-accent: #EC7F20;       /* keep logo orange / buttons */
+  --color-background: #1E2A16;   /* very dark green background */
+  --color-background-dark: #121A0F; /* extra dark sections for contrast */
+  --color-text: #FEFAE0;         /* light text on dark background */
+  --color-muted: #DDA15E;        /* subtle muted color / secondary text */
+  --color-secondary: #BC6C25;    /* brown-orange highlights */
+  --color-tertiary: #8F4F1C;     /* darker brown for hover / accents */
 }
