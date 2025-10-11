@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Quicksand:wght@300..700&display=swap');
+
+
+:root {
+  --font-heading: 'Marcellus', serif;
+  --font-body: 'Quicksand', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+}
+
+body, p, a, button, li {
+  font-family: var(--font-body);
+}
