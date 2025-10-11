@@ -1,0 +1,25 @@
+:root {
+  --color-primary: #F9F9F9;     
+  --color-accent: #EC7F20;     
+  --color-background: #F9F9F9; 
+  --color-background-dark: #0E0E0E;   
+  --color-text: #4A6B3A;         
+  --color-muted: #384437;        
+}
+
+.light {
+  --color-primary: #2E3B2F;
+  --color-accent: #FFA500;
+  --color-background: #FAFAFA;
+  --color-text: #333333;
+  --color-muted: #E0E0E0;
+
+}
+
+.dark {
+  --color-primary: #8FBC8F;
+  --color-accent: #FFB84D;
+  --color-background: #121212;
+  --color-text: #E0E0E0;
+  --color-muted: #2C2C2C;
+}

@@ -1,9 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Navbar from './components/Navbar/navbar'
+
 
 const App = props => {
   return (
-    <div>App</div>
+    <div>
+      <Navbar/>
+
+    </div>
   )
 }
 
