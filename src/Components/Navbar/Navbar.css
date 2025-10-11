@@ -40,6 +40,15 @@
     color: var(--color-accent);
 }
 
+.nav-menu li.active {
+  background: rgba(236, 127, 32, 0.25); 
+  box-shadow: 0 2px 6px rgba(236, 127, 32, 0.4);
+  color: var(--color-accent);
+  backdrop-filter: blur(12px);
+  border-radius: 50px;
+}
+
+
 .nav-menu {
     display: flex;
     align-items: center;
@@ -69,4 +78,9 @@
 .nav-connect:hover {
     transform: scale(1.03);
     box-shadow: 0 6px 35px rgba(0, 0, 0, 0.2);
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: var(--color-text);
 }
