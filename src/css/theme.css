@@ -10,11 +10,11 @@
 }
 
 .light {
-  --color-primary: #2E3B2F;
+  --color-primary:  #FEFAE0;
   --color-accent: #FFA500;
   --color-background: #FAFAFA;
-  --color-text: #333333;
-  --color-muted: #E0E0E0;
+  --color-text:  #283618;
+  --color-muted:  #384437;
 
 }
 
