@@ -1,0 +1,13 @@
+.themeToggle{
+    padding: 10px 20px !important;
+    border-radius: 50px;
+    border: 2px solid var(--color-accent);
+    background:rgba(255,255,255,0.1) ;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-text);
+    width: max-content !important;
+}
