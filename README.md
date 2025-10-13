@@ -1,18 +1,39 @@
-# React + Vite
+# Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This web app is a personal portfolio website built with React and Vite. The goal of this project is to practice front-end development, UI/UX design, and dynamic web functionality while improving my skills as a software engineer.
 
-Currently, two official plugins are available:
+The application showcases a portfolio with sections for Home and About Me, with additional pages for Services and Contact currently under construction. Users can navigate between pages using smooth scrolling, and it features a dark/light mode toggle as well as interactive buttons.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The purpose of writing this software is to enhance my front-end development skills, practice responsive UI design, and learn deployment with GitHub Pages.
 
-## React Compiler
+# Web Pages
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* Home: The landing page with an introduction and links to other sections.
+* About Me: Displays a personal bio, skills, and experience.
+* Services: Currently under construction. Once implemented, this page will display the services I can offer.
+* Contact: Currently under construction. Once implemented, this page will include a contact form for users to get in touch.
 
-Note: This will impact Vite dev & build performances.
+Navigation between pages is smooth via scrolling. The dark/light mode toggle updates the theme across all pages. Buttons are interactive and styled with dynamic hover effects.
 
-## Expanding the ESLint configuration
+# Development Environment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Tools: Visual Studio Code, Git, GitHub, Vite
+* Programming Language: JavaScript (ES6+)
+* Libraries: React, react-router-dom (for routing), gh-pages (for deployment)
+* Styling: CSS Modules and custom CSS
+
+# Useful Websites
+
+{Make a list of websites that you found helpful in this project}
+* [React Documentation](https://reactjs.org/docs/getting-started.html)
+* [Vite Documentation](https://vitejs.dev/guide/)
+* [GitHub Pages](https://pages.github.com/)
+* [CSS Tricks](https://css-tricks.com/)
+
+# Future Work
+
+* Complete the Services page with a full list of services offered
+* Implement a functional Contact page with a working form
+* Improve responsive layout for mobile devices
+* Add more dynamic content to the Portfolio section
+* Optimize image loading for faster page performance

@@ -2,14 +2,18 @@
   "name": "greice-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://greicemoreira.github.io/greice-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "prop-types": "^15.8.1",
     "react": "^19.1.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
