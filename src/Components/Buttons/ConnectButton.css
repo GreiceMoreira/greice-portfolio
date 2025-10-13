@@ -1,0 +1,34 @@
+.button-connect {
+    padding: 25px 45px;
+    border-radius: 50px;
+    color: var(--color-primary);
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    background: linear-gradient(270deg, var(--color-tertiary), var(--color-accent));
+    background-size: 400% 400%;
+    animation: liquid-gradient 8s ease infinite;
+    transition: all 0.3s ease;
+    display: inline-flex;      
+    align-items: center;        
+    justify-content: center;    
+    white-space: nowrap;       
+    text-align: center;
+    font-size: 24px;
+}
+
+.button-connect:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+    border-color: var(--color-accent);
+}
+
+
+/* ANIMATION */
+@keyframes liquid-gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
