@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import ConnectButton from '../Buttons/ConnectButton';
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
@@ -15,8 +16,7 @@ const Navbar = () => {
             <li className={menu ==="work" ? "active":""} onClick={()=>setMenu("work")}><AnchorLink className='anchor-link' offset={50} href='#work'><p>Portifolio</p></AnchorLink></li>
             <li className={menu ==="contact" ? "active":""} onClick={()=>setMenu("contact")}><AnchorLink className='anchor-link' offset={50} href='#contact'><p>Contact</p></AnchorLink></li>
        </ul>
-        <div className="nav-connect">Connect With Me</div>
-        
+        <ConnectButton/>
     </div>
   )
 }
