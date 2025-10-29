@@ -2,7 +2,8 @@
 
     "hero": {
         "h1-span":"Je suis Greice Moreira, ",
-        "h1":"étudiante en développement logiciel à l'université BYU–Idaho."
+        "h1":"étudiante en développement logiciel à l'université BYU–Idaho.",
+        "paragraph": "Concevoir et créer des solutions ingénieuses pour des projets porteurs de sens"
     },
     "navbar":{
         "home": "Accueil",
