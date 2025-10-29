@@ -14,10 +14,12 @@
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
+    "i18next": "^25.6.0",
     "prop-types": "^15.8.1",
     "react": "^19.1.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^19.1.1",
+    "react-i18next": "^16.1.6",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.9.4"
   },

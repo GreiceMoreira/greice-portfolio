@@ -1,0 +1,42 @@
+{
+
+    "hero": {
+        "h1-span":"Je suis Greice Moreira, ",
+        "h1":"étudiante en développement logiciel à l'université BYU–Idaho."
+    },
+    "navbar":{
+        "home": "Accueil",
+        "about": "À propos",
+        "portifolio": "Portfolio",
+        "contact": "Contact"
+    },
+    "achievements": {
+        "projects": "PROJETS RÉALISÉS",
+        "languages": "LANGAGES DE PROGRAMMATION",
+        "hours": "HEURES DE CODAGE"
+    },
+    "about": {       
+        "title": "À propos de moi",
+        "para-1": "Bonjour, je suis Greice Moreira. Je suis passionnée par la création d’expériences numériques captivantes qui allient créativité et fonctionnalité. Mon parcours dans le domaine de la technologie a commencé en 2021 avec des projets UX/UI, où j’ai exploré le design, la recherche utilisateur et la création de prototypes dans Figma, avant de me plonger plus profondément dans le développement front-end.",
+        "para-2": "En 2024, j’ai commencé mes études en développement logiciel à l’Université BYU–Idaho, où j’ai élargi mes compétences en Python, Java et dans des projets backend. J’aime combiner la créativité et la résolution de problèmes, et je suis enthousiaste à l’idée de contribuer à des projets à la fois fonctionnels et agréables pour les utilisateurs."
+    },
+    "services":{
+        "title": "Services"
+    },
+    "mywork":{
+        "title":"Mes derniers travaux"
+    },
+    "buttons":{
+        "connect": "Me contacter",
+        "toggle": "Changer de thème",
+        "resume": "Curriculum",
+        "show":{
+            "more":"Afficher plus",
+            "less":"Afficher moins"
+        }
+    },
+    "contact":{
+        "title":"Contact"
+    },
+    "underConstruction": "En construction 🚧"
+}
