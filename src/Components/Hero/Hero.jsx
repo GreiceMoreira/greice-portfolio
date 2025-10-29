@@ -13,7 +13,7 @@ const Hero = () => {
         <h1>
           <span>{t('hero.h1-span')}</span>
           {t('hero.h1')}</h1>
-        <p>Designing and crafting clever solutions for meaningful projects</p>
+        <p>{t('hero.paragraph')}</p>
         <div className="hero-action">
            <ConnectButton/>
             <ResumeButton/>

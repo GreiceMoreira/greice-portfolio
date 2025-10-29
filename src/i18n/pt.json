@@ -1,7 +1,8 @@
 {
     "hero": {
         "h1-span": "Meu nome é Greice Moreira, ",
-        "h1": "sou estudante de Desenvolvimento de Software na Universidade BYU–Idaho."
+        "h1": "sou estudante de Desenvolvimento de Software na Universidade BYU–Idaho.",
+        "paragraph": "Projetando e criando soluções inteligentes para projetos significativos"
     },
     "navbar":{
         "home":"Home",
