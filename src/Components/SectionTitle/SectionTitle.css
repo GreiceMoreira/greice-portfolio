@@ -20,3 +20,21 @@
     z-index: -1;
     max-width: 90px;
 }
+
+@media (max-width: 768px) {
+    .section-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    max-width: 56px;
+    }
+
+    .section-title h1{
+        display: inline;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 45px;
+    }
+
+}

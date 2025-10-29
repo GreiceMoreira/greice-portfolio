@@ -93,3 +93,8 @@
     align-items: center;
     
 }
+
+.nav-preferences {
+    display: flex;
+    flex-direction: row;
+}
