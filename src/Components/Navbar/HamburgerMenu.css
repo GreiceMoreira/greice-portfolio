@@ -1,0 +1,74 @@
+.menu-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1200;
+}
+
+.menu-overlay.open {
+  display: block;
+  opacity: 1;
+}
+
+.hamburger-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 80vw;
+  max-width: 400px;
+  background: var(--color-primary);
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 1300;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  box-shadow: -8px 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.hamburger-menu.open {
+  transform: translateX(0);
+}
+
+.menu-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-close {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.menu-controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+.menu-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 18px;
+  padding: 0;
+}
+
+.menu-links li.active {
+  background: rgba(236, 127, 32, 0.25);
+  border-radius: 10px;
+  color: var(--color-accent);
+}
+
+.menu-footer {
+  margin-top: auto;
+}

@@ -9,7 +9,7 @@ const ThemeToggle = () => {
     const { t } = useTranslation();
 
   return (
-    <button onClick={toggleTheme} className='themeToggle'>{t("buttons.toggle")}
+    <button onClick={toggleTheme} className='themeToggle'>
         {theme === "light" ? <FaMoon /> : <FaSun />}
         {theme === "light" ? "Dark Mode" : "Light Mode"}
     </button>

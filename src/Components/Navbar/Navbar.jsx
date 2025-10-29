@@ -14,7 +14,8 @@ const Navbar = () => {
   return (
     <div className='navbar'>
           <img src={logo} alt='logo'/>  
-      <LanguageSelector/>
+      
+      
         
        <ul className='nav-menu'>
             <li className={menu ==="home" ? "active":""} onClick={()=>setMenu("home")}>
@@ -28,7 +29,11 @@ const Navbar = () => {
        </ul>
         <div className='nav-buttons'>  
           <ConnectButton/>
-          <ThemeToggle/>
+          <div className='nav-preferences'>
+            <ThemeToggle/>
+            <LanguageSelector/>
+          </div>
+          
         </div>
       
     </div>
