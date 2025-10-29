@@ -9,6 +9,7 @@ const Hero = () => {
   const { t } = useTranslation();
   return (
     <div id='home' className='hero'>
+
         <h1>
           <span>{t('hero.h1-span')}</span>
           {t('hero.h1')}</h1>
@@ -17,6 +18,7 @@ const Hero = () => {
            <ConnectButton/>
             <ResumeButton/>
         </div>
+
     </div>
   )
 }
