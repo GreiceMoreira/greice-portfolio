@@ -3,19 +3,21 @@ import './About.css'
 import logo from '../../assets/logo.png'
 import profile_img from '../../assets/about_img.png'
 import SectionTitle from '../SectionTitle/SectionTitle'
+import { useTranslation } from 'react-i18next'
 
 const About = () => {
+    const { t } = useTranslation();
   return (
     <div id='about' className='about'>
-        <SectionTitle title="About me"/>
+        <SectionTitle title={t('about.title')}/>
         <div className="about-sections">
             <div className="about-left">
                 <img src={profile_img} alt="" />
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>Hi, I’m Greice Moreira. I’m passionate about creating engaging digital experiences that blend creativity and functionality. My journey in tech began in 2021 with UX/UI projects, exploring design, user research, and Figma prototypes, before diving deeper into front-end development.</p>
-                    <p>In 2024, I started my studies in Software Development at BYU–Idaho, where I expanded my skills into Python, Java, and backend projects. I love combining creativity with problem-solving, and I’m excited to contribute to projects that are both functional and delightful for users.</p>
+                    <p>{t('about.para-1')}</p>
+                    <p>{t('about.para-2')}</p>
                 </div>
                 <div className="about-skills">
                     <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"90%"}} /></div>
@@ -30,17 +32,17 @@ const About = () => {
         <div className="about-achievements">
             <div className="about-achievement">
                 <h1>15+</h1>
-                <p>PROJECTS COMPLETED</p>
+                <p>{t("achievements.projects")}</p>
             </div>
             <hr />
             <div className="about-achievement">
                 <h1>6+</h1>
-                <p>PROGRAMMING LANGUAGES</p>
+                <p>{t("achievements.languages")}</p>
             </div>
             <hr/>
             <div className="about-achievement">
                 <h1>1000+</h1>
-                <p>HOURS OF CODING</p>
+                <p>{t("achievements.hours")}</p>
             </div>
         </div>
     </div>
