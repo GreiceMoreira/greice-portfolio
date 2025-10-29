@@ -1,7 +1,6 @@
 import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/profile_img2.png'
-import ResumeButton from '../Buttons/ResumeButton'
 import ConnectButton from '../Buttons/ConnectButton'
 import { useTranslation } from 'react-i18next'
 
@@ -16,7 +15,6 @@ const Hero = () => {
         <p>{t('hero.paragraph')}</p>
         <div className="hero-action">
            <ConnectButton/>
-            <ResumeButton/>
         </div>
 
     </div>
